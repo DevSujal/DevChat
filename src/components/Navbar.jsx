@@ -4,7 +4,7 @@ import Button from "./Button";
 function Navbar({ className }) {
   return (
     <div
-      className={`flex p-3 justify-between h-14 bg-indigo-950 ${className}`}
+      className={`flex p-3 justify-between items-center h-14 bg-indigo-950 ${className}`}
     >
       <h2 className="font-bold text-white">Dev Chat</h2>
       <div className="flex gap-3">
@@ -17,7 +17,7 @@ function Navbar({ className }) {
         <span className="font-semibold text-white">Sujal Nimje</span>
         <Button
           children="Logout"
-          className=" bg-indigo-200  py-0 text-xs rounded text-gray-700"
+          className=" bg-indigo-500  py-0 text-xs rounded text-gray-700 hover:bg-indigo-400"
         />
       </div>
     </div>
