@@ -1,14 +1,23 @@
-import React from 'react'
+import React from "react";
+import Message from "./Message";
 
-function Messages({className}) {
+function Messages({ className }) {
   return (
-    <div style = {{height : "calc(100% - 105px)"}}className={` bg-black ${className}`}>
-      Messages
-      Messages
-      Messages
-      Messages
+    <div
+      className={`p-1 overflow-y-scroll scroll-smooth ${className}`}
+    >
+      <Message />
+      <Message />
+      <Message />
+      <Message />
+      <Message />
+      <Message />
+      <Message />
+      <Message />
+      <Message />
+      <Message />
     </div>
-  )
+  );
 }
 
-export default Messages
+export default Messages;
